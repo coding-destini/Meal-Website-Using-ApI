@@ -3,22 +3,28 @@
         margin: 0;
         padding: 0;
     }
-
+     .logo img{
+        margin-left: -40px;
+     }
     .menu-head h1 {
         font-size: 3rem;
-        margin-left: -40px;
+        margin-left: -140px;
     }
 
     .menu-head h2 {
-        margin-left: -40px;
+        margin-left: -120px;
     }
 
     .menu-item {
-        margin-left: -40px;
+        margin-left: -50px;
+        width:90%;
     }
 
     .menu-items img {
-        width: 60%;
+        width: 10%;
+    }
+    .about-btn{
+        margin-left: -140px;
     }
 
     /* blog  */
@@ -54,6 +60,7 @@
 
     .member {
         min-width: 266px;
+        margin-left: -40px;
     }
 
     form .email {
