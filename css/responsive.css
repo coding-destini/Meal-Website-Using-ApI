@@ -22,9 +22,9 @@
     .menu-items img {
         width: 10%;
     }
-/*     .about-btn{
+    .aboutt{
         margin-left: -140px;
-    } */
+    }
 
     /* blog  */
     .blog-head h1 {
@@ -59,7 +59,7 @@
 
     .member {
         min-width: 266px;
-/*         margin-left: -40px; */
+        margin-left: -40px;
     }
 
     form .email {
