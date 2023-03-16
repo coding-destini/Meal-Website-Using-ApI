@@ -9,15 +9,15 @@
      }
     .menu-head h1 {
         font-size: 3rem;
-/*         margin-left: -140px; */
+        margin-left: -140px;
     }
 
     .menu-head h2 {
-/*         margin-left: -120px; */
+        margin-left: -120px;
     }
 
     .menu-item {
-/*         margin-left: -50px; */
+        margin-left: -50px;
         width:90%;
     }
 
