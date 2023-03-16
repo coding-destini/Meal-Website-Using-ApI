@@ -3,6 +3,9 @@
         margin: 0;
         padding: 0;
     }
+   .header{
+        width: 85%;
+    }
      .logo img{
         margin-left: -40px;
      }
