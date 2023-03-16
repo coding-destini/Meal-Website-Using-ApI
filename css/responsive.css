@@ -3,12 +3,10 @@
         margin: 0;
         padding: 0;
     }
-   .header{
-        width: 85%;
-    }
-     .logo img{
+   
+/*      .logo img{
         margin-left: -40px;
-     }
+     } */
     .menu-head h1 {
         font-size: 3rem;
         margin-left: -140px;
