@@ -1,0 +1,555 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+
+/* desktop  */
+
+.heading h2,
+h3 {
+	margin-top: 7rem;
+	font-size: 2.5rem;
+	color: red;
+}
+
+.heading h1 {
+	font-size: 3.9rem;
+	font-weight: 700;
+}
+
+.heading p {
+	color: grey;
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+.navbar-text a {
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.navbar-text i {
+	color: red;
+}
+
+.about-btn {
+	border: none;
+	padding: 15px;
+	font-weight: 700;
+	background-color: rgb(16, 199, 41);
+	color: white;
+	border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.mdl-btn {
+	border: none;
+	padding: 15px;
+	font-weight: 700;
+	background-color: #D9AFD9;
+	background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+	color: white;
+	border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	animation: ab 1s ease-in-out 1s infinite;
+	transition: 1s ease-in-out;
+}
+
+
+@keyframes ab {
+
+	from {
+		background-color: #D9AFD9;
+		background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+	}
+
+	to {
+		background-color: #8EC5FC;
+		background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+	}
+}
+
+.navbar-nav a {
+	transition: 0.5s ease-in-out;
+	font-weight: 700;
+}
+
+.navbar-nav a:hover {
+	color: greenyellow;
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out;
+}
+
+.about h3 {
+	margin-top: 7rem;
+	font-size: 2.5rem;
+	color: red;
+}
+
+.about h1 {
+	font-size: 3.9rem;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.about p {
+	color: grey;
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+.menu-head h2 {
+	margin-top: 7rem;
+	font-size: 2.5rem;
+	color: red;
+}
+
+.menu-head h1 {
+	font-size: 3.9rem;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.menu-items h2 {
+	margin-top: 10px;
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+}
+
+.menu-items p {
+	color: rgb(63, 62, 62);
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+.menu-item {
+	border-radius: 20px;
+	padding: 20px;
+	word-wrap: break-word;
+	margin: 2px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.menu-item:hover {
+	transform: scale(1.1);
+	transition: 0.3s ease-in-out;
+}
+
+
+/* team  */
+.team-heading h2 {
+	margin-top: 7rem;
+	font-size: 2.5rem;
+	color: red;
+}
+
+.team-heading h1 {
+	font-size: 3.9rem;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.members h2 {
+	margin-top: 10px;
+	color: rgb(0, 0, 0);
+	font-weight: 800;
+	font-size: 20px;
+}
+
+.members p {
+	color: rgb(63, 62, 62);
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+.member {
+	border-radius: 20px;
+	padding: 10px;
+	word-wrap: break-word;
+	margin: 2px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+	text-align: center;
+}
+
+.member:hover {
+	transform: scale(1.1);
+	transition: 0.3s ease-in-out;
+}
+
+.member img {
+	border-radius: 50%;
+	width: 60%;
+	border: 4px solid rgb(0, 131, 17);
+}
+
+.member .icons i {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 50%;
+	border: 2px solid rgb(2, 163, 16);
+}
+
+/* subscribe  */
+
+.subscribe {
+	margin-top: 10rem;
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	border-radius: 25px;
+}
+
+.subscribe h2 {
+	font-size: 2rem;
+	color: red;
+	font-weight: 600;
+}
+
+.subscribe h1 {
+	font-size: 3.9rem;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.subscribe p {
+	color: rgb(63, 62, 62);
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+form input {
+	padding: 10px;
+	color: gray;
+	border-radius: 25px;
+	border: 2px rgb(42, 179, 42) solid;
+}
+
+form .submit {
+	background-color: rgb(42, 179, 42);
+	color: white;
+	position: relative;
+	left: -50px;
+}
+
+form .email {
+	width: 65%;
+}
+
+/* blog  */
+
+.blog-head h2 {
+	margin-top: 7rem;
+	font-size: 2.5rem;
+	color: red;
+}
+
+.blog-head h1 {
+	font-size: 3.9rem;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.blog-items h2 {
+	margin-top: 10px;
+	color: rgb(0, 0, 0);
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.blog-item h2:hover {
+	transition: 0.2s ease-in-out;
+	color: greenyellow;
+}
+
+.blog-items p {
+	color: rgb(63, 62, 62);
+	font-weight: 300;
+	margin-top: 15px;
+}
+
+.blog-item {
+	border-radius: 20px;
+	padding: 20px;
+	word-wrap: break-word;
+	margin: 2px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.blog-item:hover {
+	transform: scale(1.1);
+	transition: 0.3s ease-in-out;
+}
+
+.blog-item img {
+	border-radius: 20px;
+}
+
+.blog-item a {
+	text-decoration: none;
+	color: greenyellow;
+}
+
+.blog-item a:hover {
+	text-decoration: underline;
+}
+
+/* footer  */
+.footer h1 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.footer p {
+	color: gray;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.slide p {
+	transition: 0.5s ease-in-out;
+}
+
+.slide p:hover {
+	margin-left: 20px;
+	color: greenyellow;
+	transition: 0.2s ease-in-out;
+}
+
+
+.footer i {
+	color: greenyellow;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.footer a {
+	text-decoration: none;
+	color: gray;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Modal  */
+
+
+.search-container input {
+	border: none;
+	border-bottom: 1px black solid;
+	width: 80%;
+	outline: none;
+}
+
+.search-container button {
+	border: none;
+	padding: 10px;
+	font-weight: 700;
+	background-color: greenyellow;
+	border-radius: 10px;
+}
+
+
+.result img {
+	display: block;
+	width: 80%;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 25px;
+}
+
+.details {
+	margin-left: 20px;
+}
+
+.details h2 {
+	font-size: 2.5rem;
+	font-weight: 800;
+	word-wrap: break-word;
+	margin-top: 30px;
+	color: black;
+}
+
+.details h4 {
+	font-size: 1.5rem;
+	font-weight: 800;
+	word-wrap: break-word;
+}
+
+#ingredient-con {
+	font-weight: 700;
+	background-color: #D9AFD9;
+	background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	animation: bc 1s ease-in-out 1s infinite;
+	transition: 1s ease-in-out;
+}
+
+@keyframes bc {
+
+	from {
+		background-color: #D9AFD9;
+		background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+	}
+
+	to {
+		background-color: #8EC5FC;
+		background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+	}
+}
+
+#hide-recipe {
+	cursor: pointer;
+	font-weight: 800;
+	border: 2px black solid;
+	border-radius: 25px;
+	padding: 10px;
+	width: 60%;
+	background-color: greenyellow;
+	transition: 0.2s ease-in-out;
+	margin-top: 20px;
+	color: black;
+}
+
+#hide-recipe:hover {
+	transition: 0.2s ease-in-out;
+	background-color: rgb(214, 5, 5);
+}
+
+.result pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	line-height: 1.4rem;
+	padding: 10px;
+	font-size: 1.2rem;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 700;
+	color: #303040;
+}
+
+#recipe {
+	display: none;
+}
+
+#show-recipe {
+	border: none;
+	padding: 10px;
+	font-weight: 700;
+	background-color: greenyellow;
+	border-radius: 10px;
+	margin-top: 20px;
+	transition: 0.2s ease-in-out;
+}
+
+#show-recipe:hover {
+	transition: 0.2s ease-in-out;
+	background-color: darkgreen;
+	color: white;
+}
+
+
+
+#card {
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: 10px;
+}
+
+#card img {
+	border-radius: 25px;
+}
+
+#card h5 {
+	font-size: 1.9rem;
+	font-weight: 700;
+}
+
+#card button {
+	margin-top: -40px;
+	color: black;
+}
+
+#card i {
+	background-color: white;
+	border-radius: 50px;
+	padding: 0px;
+	font-size: 1.5rem;
+	margin-top: -30px;
+	cursor: pointer;
+}
+
+.favorite {
+	border: none;
+	padding: 10px;
+	font-weight: 700;
+	background-color: greenyellow;
+	border-radius: 10px;
+}
+
+.more-de {
+	border: none;
+	padding: 10px;
+	font-weight: 700;
+	background-color: greenyellow;
+	border-radius: 10px;
+	transition: 0.2s ease-in-out;
+}
+
+.more-de:hover {
+	background-color: rgb(145, 145, 228);
+	transition: 0.2s ease-in-out;
+}
+
+
+
+/* Details about meal  */
+
+
+#meal-details img {
+	border-radius: 25px;
+	width: 300px;
+}
+
+#meal-details h1 {
+	font-size: 3.9rem;
+	font-weight: 700;
+}
+
+#meal-details h2 {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+#meal-details p {
+	color: rgb(63, 62, 62);
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+#favourites-body{
+	display: flex;
+}

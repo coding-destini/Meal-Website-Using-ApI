@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Website</title>
+    <!-- Bootstrap CDN Link Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header  -->
+    <header>
+        <div class="container-fluid fixed-top" style="background-color: white;">
+            <nav class="navbar container navbar-expand-lg  p-3" id="nav">
+                <div class="container-fluid header">
+                    <a href="index.html" class="mx-4"><img src="assets/img/logo.svg" alt=""></a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center p-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="All_Meals.html">All Meals</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text">
+                            <a href="favoriteList.html">My favorite <i class="fa-solid fa-heart"></i></a>
+                        </span>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <div class="container my-fav" style="margin-top: 7rem;">
+        <button class="favorite" onclick="showFavMealList()">Show My Favorites</button>
+        <div class="row">
+            <div id="favourites-body"  style="word-wrap: break-word;"></div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- footer  -->
+    <footer>
+        <div class="container mt-5 " id="contact">
+            <div class="row footer" style="margin-top: 10rem;">
+                <div class="col-lg-3 col-sm-6">
+                    <h1>FoodEx</h1>
+                    <p>Connect With Us</p>
+                    <div class="icons">
+                        <a href=""><i class="fa-brands fa-facebook-f fs-2" style="color: blue;"></i></a>
+                        <a href=""> <i class="fa-brands fa-instagram fs-2" style="color: red"></i></a>
+                        <a href=""><i class="fa-brands fa-github fs-2" style="color: black;"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 slide">
+                    <h1>Menu Links</h1>
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Menu</p>
+                    <p>Team</p>
+                    <p>Blog</p>
+                    <p>Contact</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 slide">
+                    <h1>Our Foods</h1>
+                    <p>Pizza</p>
+                    <p>Indian Burger</p>
+                    <p>Pasta</p>
+                    <p>Chicken</p>
+                    <p>Tortrilla</p>
+                    <p>Cart</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h1>Contact</h1>
+                    <p><i class="fa-solid fa-location-dot"></i> Uttarakhand, Rishikesh</p>
+                    <p><a href=""><i class="fa-solid fa-envelope"></i>akashshahngu@gmail.com</i></a></p>
+                    <p><i class="fa-solid fa-phone"></i> Telephone</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <copyright>
+        <div class="my-right text-center m-5">
+            © Made by Coding Destini. All Rights Reserved.
+        </div>
+    </copyright>
+    <!-- Bootstrap CDN Link Js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/e2c02d027c.js" crossorigin="anonymous"></script>
+    <!-- External JS  -->
+    <script src="js/allMeal.js"></script>
+</body>
+
+</html>

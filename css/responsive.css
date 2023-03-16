@@ -1,0 +1,124 @@
+@media only screen and (max-width: 509px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-head h1 {
+        font-size: 3rem;
+        margin-left: -40px;
+    }
+
+    .menu-head h2 {
+        margin-left: -40px;
+    }
+
+    .menu-item {
+        margin-left: -40px;
+    }
+
+    .menu-items img {
+        width: 60%;
+    }
+
+    /* blog  */
+    .blog-head h1 {
+        font-size: 3rem;
+        margin-left: -40px;
+    }
+
+    .blog-head h2 {
+        margin-left: -40px;
+    }
+
+    .blog-item {
+        margin-left: -40px;
+        min-width: 266px;
+    }
+
+    .blog-items img {
+        width: 100%;
+    }
+
+    .subscribe h1 {
+        font-size: 1.4rem;
+    }
+
+    .team-heading h1 {
+        font-size: 1.4rem;
+    }
+
+    .subscribe {
+        min-width: 266px;
+    }
+
+    .member {
+        min-width: 266px;
+    }
+
+    form .email {
+        width: 100%;
+    }
+
+    form .submit {
+        left: 0;
+        margin: 4px;
+    }
+
+    #details {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+.my-fav{
+    text-align: center;
+}
+    #favourites-body{
+        display: block;
+        
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer {
+        text-align: center;
+    }
+}
+
+/* tablet  */
+@media only screen and (max-width: 991px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    menu {
+        min-width: 466px;
+    }
+
+    .menu-items img {
+        width: 60%;
+
+    }
+
+    .menu-item {
+        margin-bottom: 20px;
+    }
+
+    .member {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    form .email {
+        width: 100%;
+    }
+
+    form .submit {
+        left: 0;
+        margin: 4px;
+    }
+}
